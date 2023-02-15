@@ -71,7 +71,6 @@ int main(int argc, char *argv[]) {
 	data[0] = 'Z';
 	data[1] = 'H';
 	data[2] = 'R';
-	data[3] = 'A';
 	write(client_sock, data, sizeof(data));
 
 	//// 클라이언트로부터 데이터를 읽고, 데이터 내용과 길이를 저장함	// 서버 소켓 > 클라이언트 소켓으로 나뉨

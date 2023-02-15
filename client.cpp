@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
 		error_handling("connect() error");
 
 	// 서버로 데이터 보냄
-	char data[30] = "test_message"
+	char data[30] = "test_message";
 	write(sock, data, sizeof(data));
 
 	// 서버로부터 데이터를 읽고, 데이터 내용과 길이를 저장함(-1은 맨 뒤의 문제 제외를 위함)
